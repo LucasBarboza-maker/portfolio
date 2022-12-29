@@ -14,7 +14,9 @@ module.exports = {
       },
       backgroundImage: {
         'computer': "url('../public/images/computer_darker.jpg')",
-        'programming': "url('../public/images/programming_computer.jpg')"
+        'programming': "url('../public/images/programming_computer.jpg')",
+        'me': "url('../public/images/my_site_photo.jpg')"
+
       },
       height: {
         '90vh': '90vh',
