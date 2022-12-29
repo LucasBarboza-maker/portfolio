@@ -1,0 +1,42 @@
+{
+  "aBit":"UM POUCO SOBRE MIM",
+  "iama":"Sou um desenvolvedor Fullstack, minhas tecnologias principais são REACT, NODE, MONGO mas tenho experiência com PHP, Angular e C#",
+  "hello":"Olá, meu nome é Lucas Barboza, sou um desenvolvedor, na verdade eu uso a stack MERN, mas posso trabalhar com qualquer linguagem que você precisar, desde os 16 anos estou em contato com o mundo da tecnologia fazendo, por exemplo, joguinhos e alguns aplicativos de armazenamento, hoje tenho 2 anos de experiência com REACTJS, NODEJS, MONGO e muitas ferramentas e frameworks, um bom programador deve lidar com qualquer tarefa que receba independente da linguagem de programação, acredito que esses são os programadores que fazem os grandes aplicativos que vemos ao redor do mundo, e eu serei um deles.",
+  "learning":"APRENDENDO",
+  "learning_Text":"Um programador deve estar sempre aprendendo, no mundo da tecnologia tudo evolui muito rápido, por isso é importante aprender coisas novas.",
+  "coding":"CODANDO",
+  "coding_Text":"Sempre a codificar, tudo o que aprendo prefiro fazê-lo de forma prática, não sendo apenas na teoria, sinto que aprendo melhor fazendo desta forma.",
+  "improving":"MELHORANDO",
+  "improving_text":"Normalmente, fico pensando que o que fiz pode ser melhorado e, da próxima vez que fizer esses projetos, posso melhorar e otimizar.",
+
+  "mySkills":"MINHAS HABILIDADES",
+  "mySkills_subtitle":"Essas abaixo são minhas habilidades adquiridas em anos de desenvolvimento",
+
+  "myTragetory":"MINHA TRAGETÓRIA",
+  "myTragetory_subtitle":"Abaixo encontra-se minhas experiências profissionais/aprendizado com anos de desenvolvimento",
+
+
+
+  "college":"FACULDADE",
+  "college_subtitle":"Faculdade de Educação Tecnológica do Estado do Rio de Janeiro",
+  "college_description":"Aprendi muito estudando lá, desde Programação Orientada a Objetos até HTML/CSS, meu Projeto Capstone é um aplicativo da faculdade que fiz para eles, o código front-end está no meu github e está detalhado lá os processos e a arquitetura.",
+
+  "hackerrank":"HACKERRANK",
+  "hackerrank_certificate_name":"HACKERRANK - REACTJS CERTIFICADO",
+  "hackerrank_subtitle":"Este certificado foi dado a mim depois que eu fui aprovado em seu desafio reactjs.",
+  "hackerrank_description":"Fiz este teste de certificação para provar que posso trabalhar com reactjs, todos os envios para o site hackerrank estavam funcionando perfeitamente e no final recebi este certificado.",
+
+  "fullstack_1":"FULLSTACK - EMPREGO",
+  "fullstack_1_job_title":"REACT/NODEJS NA MERAKI",
+  "fullstack_1_job_subtitle":"Um emprego que eu trabalhei sendo Fullstack REACT/NODEJS com um passinho em C# e Angular",
+  "fullstack_1_description":"Este é meu trabalho atual, trabalho com PHP agora mas quero trabalhar com NODEJS, tenho estudado nas horas vagas e me aprimorado.",
+
+  "fullstack_2":"FULLSTACK - EMPREGO",
+  "fullstack_2_job_title":"ANGULAR/PHP NO PONTO DAS CÂMERAS",
+  "fullstack_2_job_subtitle":"Um emprego que eu trabalhei sendo Fullstack ANGULAR/PHP com um passinho em DEVOPS",
+  "fullstack_2_description":"Este é meu trabalho atual, trabalho com PHP agora mas quero trabalhar com NODEJS, tenho estudado nas horas vagas e me aprimorado.",
+ 
+  "from":"DE",
+  "to":"ATÉ",
+  "now":"HOJE"
+}

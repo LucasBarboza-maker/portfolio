@@ -1,0 +1,42 @@
+{
+  "aBit":"A BIT ABOUT ME",
+  "iama":"I am a Fullstack developer, my main tecnologies are REACT, NODE, MONGO but i have experience with PHP, Angular and C#",
+  "hello":"Hello, My name is Lucas Barboza, i am a Developer, actually i use the MERN stack but i can work with any languages you need, since i was 16 years old i've been in contact with the tech world doing, for example, little games and some storage applications, today i have 2 years of experience with REACTJS, NODEJS, MONGO, and a lot of tools and frameworks, a good programmer must handle any task that he receives independent of programming language, i believe those are the programmers which make the great applications we see around the world, and i going to be one of them.",
+  "learning":"LEARNING",
+  "learning_Text":"A Programmer must always be learning, in the tech world everything evolves very fast, so it's important learn new things.",
+  "coding":"CODING",
+  "coding_Text":"Always coding, everything that i learn i ratter make it in a pratical way, not being only in theory, i feel that i learn better doing this way.",
+  "improving":"IMPROVING",
+  "improving_text":"Normally i get myself thinking that what i've made could be improved and the next time that i gonna make such projects i can improve and optimize then.",
+
+  "mySkills":"MY SKILLS",
+  "mySkills_subtitle":"Those bellow are my skills acquired in years of development",
+
+  "myTragetory":"MY TRAGETORY",
+  "myTragetory_subtitle":"Those bellow are my skills acquired with years of development",
+
+
+
+  "college":"COLLEGE",
+  "college_subtitle":"College of Technological Education of the State of Rio de Janeiro",
+  "college_description":"I learned a lot studying there, since Oriented Object-Oriente Programming to HTML/CSS, my Capstone Project is a college app that i've made for them, the front-end code is in my github and i'ts detailed there the processes and the architecture.",
+
+  "hackerrank":"HACKERRANK",
+  "hackerrank_certificate_name":"HACKERRANK - REACTJS CERTIFICATE",
+  "hackerrank_subtitle":"This certify was given to me after i've been aproved in their reactjs challenge",
+  "hackerrank_description":"I've made this certify test to prove that i can work with reactjs, all submits to hackerrank site were working perfectly and at the end i got this certify.",
+
+  "fullstack_1":"FULLSTACK - JOB",
+  "fullstack_1_job_title":"REACT/NODEJS AT MERAKI",
+  "fullstack_1_job_subtitle":"A Job that i work being a Fullstack REACT/NODEJS with a little step in C# and Angular",
+  "fullstack_1_description":"This is my current job, i work with PHP now but i want to work with NODEJS, i've been studying in my free time and improving myself.",
+
+  "fullstack_2":"FULLSTACK - JOB",
+  "fullstack_2_job_title":"ANGULAR/PHP AT PONTO DAS CÂMERAS",
+  "fullstack_2_job_subtitle":"A Job that i work being a Fullstack ANGULAR/PHP with a little step in DEVOPS",
+  "fullstack_2_description":"This is my current job, i work with PHP now but i want to work with NODEJS, i've been studying in my free time and improving myself.",
+
+  "from":"FROM",
+  "to":"TO",
+  "now":"NOW"
+}
