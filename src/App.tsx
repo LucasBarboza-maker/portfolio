@@ -12,6 +12,10 @@ function App() {
 
   const [lang, setLang] = useState(port);
 
+  function goTo(link: string){
+    window.open(link, '_blank');
+  }
+
   return (
     <div>
       <div className="flex flex-row absolute right-0">
@@ -42,16 +46,16 @@ function App() {
         </div>
         <div className="h-20vh flex text-primary self-center w-64 justify-between items-center">
           <button>
-            <FaLinkedin size={42} style={{ cursor: 'pointer' }} />
+            <FaLinkedin onClick={() => goTo("https://www.linkedin.com/in/lucas-barboza-7a23551a5/")} size={42} style={{ cursor: 'pointer' }} />
           </button>
-          <button>
+          <button onClick={() => goTo("https://github.com/LucasBarboza-maker")}>
             <FaGithub size={42} style={{ cursor: 'pointer' }} />
           </button>
           <button>
-            <FaHackerrank size={42} style={{ cursor: 'pointer' }} />
+            <FaHackerrank size={42} onClick={() => goTo("https://www.hackerrank.com/LucasBarboza")} style={{ cursor: 'pointer' }} />
           </button>
           <button>
-            <MdEmail size={42} style={{ cursor: 'pointer' }} />
+            <MdEmail size={42} onClick={() => goTo("mailto:lucasrb18@gmail.com")} style={{ cursor: 'pointer' }} />
           </button>
         </div>
         <div className="flex justify-center">
