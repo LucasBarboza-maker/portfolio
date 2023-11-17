@@ -1,46 +1,112 @@
-# Getting Started with Create React App
+# SMART RTT ![license](https://img.shields.io/badge/license-Private-blue.svg) ![Java](https://img.shields.io/badge/Java%20Version-17.0.0-red.svg) ![Maven](https://img.shields.io/badge/Maven-4.0.0-green.svg)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Projeto de melhoria de exibição do Grafana e APP baseado em microserviços para encaminhamento de alertas com sua principal STACK de desenvolvimento sendo Java e Angular.
 
-## Available Scripts
+## 🚀 Começando
 
-In the project directory, you can run:
+Essas instruções permitirão que você obtenha uma cópia do projeto em operação na sua máquina local para fins de desenvolvimento e teste.
 
-### `npm start`
+### 📋 Pré-requisitos
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+De que coisas você precisa para instalar o software e como instalá-lo?
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+1. Instalar o [Java 17](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html).
 
-### `npm test`
+2. Instalar uma IDE seja [Eclipse](https://spring.io/tools) ou [VS code](https://code.visualstudio.com/download).
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+       Caso utilize o VS Code serão necessárias as insatlaçoes de algumas extensões que são:
+   
+       * Maven for Java
+       * Project Manager for Java
+       * Java Language Support
+       * Test Runner for Java
+       * Spring Initializr Java Support
+       * Extension Pack for Java
+       * Debbuger Pack for Java
 
-### `npm run build`
+4. Instalar [Postgres 14.7](https://www.postgresql.org/download/).
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+5. Instalar [PG Admin](https://www.postgresql.org/download/). Não é necessário, mas altamente Recomendável
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 🔧 Instalação
 
-### `npm run eject`
+Uma série de exemplos passo-a-passo que informam o que você deve executar para ter um ambiente de desenvolvimento em execução.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Diga como essa etapa será:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+Dar exemplos
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+E repita:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```
+Até finalizar
+```
 
-## Learn More
+Termine com um exemplo de como obter dados do sistema ou como usá-los para uma pequena demonstração.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## ⚙️ Executando os testes
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Explicar como executar os testes automatizados para este sistema.
+
+### 🔩 Analise os testes de ponta a ponta
+
+Explique que eles verificam esses testes e porquê.
+
+```
+Dar exemplos
+```
+
+### ⌨️ E testes de estilo de codificação
+
+Explique que eles verificam esses testes e porquê.
+
+```
+Dar exemplos
+```
+
+## 📦 Implantação
+
+Adicione notas adicionais sobre como implantar isso em um sistema ativo
+
+## 🛠️ Construído com
+
+Mencione as ferramentas que você usou para criar seu projeto
+
+* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - O framework web usado
+* [Maven](https://maven.apache.org/) - Gerente de Dependência
+* [ROME](https://rometools.github.io/rome/) - Usada para gerar RSS
+
+## 🖇️ Colaborando
+
+Por favor, leia o [COLABORACAO.md](https://gist.github.com/usuario/linkParaInfoSobreContribuicoes) para obter detalhes sobre o nosso código de conduta e o processo para nos enviar pedidos de solicitação.
+
+## 📌 Versão
+
+Nós usamos [SemVer](http://semver.org/) para controle de versão. Para as versões disponíveis, observe as [tags neste repositório](https://github.com/suas/tags/do/projeto). 
+
+## ✒️ Autores
+
+Mencione todos aqueles que ajudaram a levantar o projeto desde o seu início
+
+* **Um desenvolvedor** - *Trabalho Inicial* - [umdesenvolvedor](https://github.com/linkParaPerfil)
+* **Fulano De Tal** - *Documentação* - [fulanodetal](https://github.com/linkParaPerfil)
+
+Você também pode ver a lista de todos os [colaboradores](https://github.com/usuario/projeto/colaboradores) que participaram deste projeto.
+
+## 📄 Licença
+
+Este projeto está sob a licença (sua licença) - veja o arquivo [LICENSE.md](https://github.com/usuario/projeto/licenca) para detalhes.
+
+## 🎁 Expressões de gratidão
+
+* Conte a outras pessoas sobre este projeto 📢;
+* Convide alguém da equipe para uma cerveja 🍺;
+* Um agradecimento publicamente 🫂;
+* etc.
+
+
+---
+⌨️ com ❤️ por [Armstrong Lohãns](https://gist.github.com/lohhans) 😊
