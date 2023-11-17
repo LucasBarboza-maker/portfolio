@@ -26,29 +26,50 @@ De que coisas você precisa para instalar o software e como instalá-lo?
 
 4. Instalar [Postgres 14.7](https://www.postgresql.org/download/).
 
-5. Instalar [PG Admin](https://www.postgresql.org/download/). Não é necessário, mas altamente Recomendável
+5. Instalar [PG Admin](https://www.postgresql.org/download/). (não é necessário, mas altamente recomendável)
 
 6. Instalar [Insomnia](https://insomnia.rest/download) ou [Postman](https://www.postman.com/downloads/).
 
+7. Instalar o [Git](https://git-scm.com/downloads)
 
+   
 ### 🔧 Instalação
 
 Uma série de exemplos passo-a-passo que informam o que você deve executar para ter um ambiente de desenvolvimento em execução.
 
-Diga como essa etapa será:
+1. Clone o projeto em sua maquina, direto do Git ou pelo comando abaixo:
 
+   **Lembrando, é necessário abrir o terminal na pasta que você deseja clonar o repositório**
 ```
-Dar exemplos
-```
-
-E repita:
-
-```
-Até finalizar
+git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 ```
 
-Termine com um exemplo de como obter dados do sistema ou como usá-los para uma pequena demonstração.
+2. é necessário criar os bancos: 
 
+Bancos para criar:
+* smartrtt-core-db
+* smartrtt-analysis-db
+* smartrtt-auth-db
+
+pode ser pela interface PG admin ou direto no CLI com o comando abaixo:
+```
+createdb nome_do_banco
+```
+
+3. Agora abra todos os projetos smartrtt em sua IDE e execute-os na mesma ordem abaixo:
+
+       1. smartrtt-service-registry
+       2. smartrtt-authuser
+       3. smartrtt-core
+       4. smartrtt-analysis
+       5. smartrtt-collector
+       6. smartrtt-api-gateway
+
+   **Se você estiver usando uma maneira mais antiga de executar os comandos são**
+   * mvn spring-boot:run
+
+   Comandos úteis
+   
 ## ⚙️ Executando os testes
 
 Explicar como executar os testes automatizados para este sistema.
