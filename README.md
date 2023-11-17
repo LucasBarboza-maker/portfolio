@@ -28,6 +28,8 @@ De que coisas você precisa para instalar o software e como instalá-lo?
 
 5. Instalar [PG Admin](https://www.postgresql.org/download/). Não é necessário, mas altamente Recomendável
 
+6. Instalar [Insomnia](https://insomnia.rest/download) ou [Postman](https://www.postman.com/downloads/).
+
 
 ### 🔧 Instalação
 
