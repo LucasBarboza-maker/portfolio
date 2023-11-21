@@ -70,19 +70,11 @@ createdb nome_do_banco
    * mvn clean -> para limpar o projeto (às vezes é nececessário limpar antes de executar).
    * mvn verify -> para verificar a integridade e compilar o projeto.
 
-   Comandos úteis
-   
-## ⚙️ Executando os testes
+Após completar os passos acima o projeto deve estar sendo executado em seu computador.
 
-Explicar como executar os testes automatizados para este sistema.
+Utilize o Insomnia para acessar as rotas, lembrando que é necessária a autenticação para acessar as rotas faça o login no insomnia
 
-### 🔩 Analise os testes de ponta a ponta
-
-Explique que eles verificam esses testes e porquê.
-
-```
-Dar exemplos
-```
+**SWAGGER** -> Para acessar o swagger execute a aplicação e depois acesse o link: http://localhost:8080/webjars/swagger-ui/index.html
 
 ### ⌨️ E testes de estilo de codificação
 
