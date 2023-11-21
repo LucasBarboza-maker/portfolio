@@ -66,7 +66,9 @@ createdb nome_do_banco
        6. smartrtt-api-gateway
 
    **Se você estiver usando uma maneira mais antiga de executar os comandos são**
-   * mvn spring-boot:run
+   * mvn spring-boot:run -> para executar.
+   * mvn clean -> para limpar o projeto (às vezes é nececessário limpar antes de executar).
+   * mvn verify -> para verificar a integridade e compilar o projeto.
 
    Comandos úteis
    
