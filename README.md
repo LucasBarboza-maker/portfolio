@@ -76,9 +76,30 @@ Utilize o Insomnia para acessar as rotas, lembrando que é necessária a autenti
 
 **SWAGGER** -> Para acessar o swagger execute a aplicação e depois acesse o link: http://localhost:8080/webjars/swagger-ui/index.html
 
-### ⌨️ E testes de estilo de codificação
+### ⌨️ Variáveis de Ambiente
 
-Explique que eles verificam esses testes e porquê.
+As variáveis de ambiente podem ser utilizadas em todo escopo do ambiente de desenvolvimento.
+
+Pode se observar as variáveis no arquivo application.yml de cada backend.
+
+As seguintes variáveis são necessárias para a inicialização e funcionamento do projeto: (smartrtt-authuser)
+       
+       spring.datasource.url --> esta variável recebe a url do banco
+    
+       spring.datasource.username --> esta variável recebe o username do usuário do banco de dados
+
+       spring.datasource.password --> esta variável recebe a senha do usuário do banco de dados
+
+       profiles.active --> esta variável recebe o estado de execução do sistema entre desenvolvimento e producao
+
+       spring.datasource.username --> esta variável recebe o username do usuário do banco de dados.
+
+       security.oauth2.resourceserver.jwt.jwk-set-uri --> esta variável recebe a url do micro servico authuser.
+
+       management.endpoints.web.exposure.include --> esta variável é responsável pela exposição da interface web
+
+       
+
 
 ```
 Dar exemplos
