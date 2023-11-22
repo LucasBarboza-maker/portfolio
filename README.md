@@ -98,8 +98,23 @@ As seguintes variáveis são necessárias para a inicialização e funcionamento
 
        management.endpoints.web.exposure.include --> esta variável é responsável pela exposição da interface web
 
-       
+       management.endpoint.env.show-values --> 
 
+       management.endpoint.env.show-details --> 
+
+       smartrtt.ui-url --> esta variável guarda o endereço do frontend da aplicação
+
+       smartrtt.redirect-auth-url --> esta variável guarda o endereço de redirecionamento do frontend     
+
+       smartrtt.redirect-api-url --> esta variável guarda o endereço de redirecionamento da API
+
+       service-registry.username --> esta variável guarda o valor do username do service-registry
+
+       service-registry.password --> esta variável guarda o valor do password do service-registry
+
+       eureka.instance.prefer-ip-address --> esta variável indica para o Eureka que é preferivel utilizar o ip
+
+       eureka.client.service-url.defaultZone --> esta variável responsável pelo armazenamento da url do eureka 
 
 ```
 Dar exemplos
