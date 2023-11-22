@@ -130,4 +130,5 @@ As seguintes variáveis são necessárias para a inicialização e funcionamento
        eureka.client.service-url.defaultZone --> esta variável responsável pelo armazenamento da url do eureka
 
 
-## ✒️ Autor: **Vertis Solutions**
+## ✒️ Autor: 
+Vertis Solutions
