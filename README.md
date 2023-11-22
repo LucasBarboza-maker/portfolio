@@ -85,7 +85,7 @@ createdb nome_do_banco
                                
     mvn spring-boot:run -> para executar.
     mvn clean -> para limpar o projeto (às vezes é nececessário limpar antes de executar).
-    mvn verify -> para verificar a integridade e compilar o projeto.
+    mvn verify -> para verificar a integridade e compilar o projeto (Execute após limpar o projeto).
 
 Após completar os passos acima o projeto deve estar sendo executado em seu computador.
 
