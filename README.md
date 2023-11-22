@@ -1,4 +1,4 @@
-# SMART RTT ![license](https://img.shields.io/badge/license-Private-blue.svg) ![Java](https://img.shields.io/badge/Java%20Version-17.0.0-red.svg) ![Maven](https://img.shields.io/badge/Maven-4.0.0-green.svg)
+# SMART RTT AUTHUSER ![license](https://img.shields.io/badge/license-Private-blue.svg) ![Java](https://img.shields.io/badge/Java%20Version-17.0.0-red.svg) ![Maven](https://img.shields.io/badge/Maven-4.0.0-green.svg)
 
 Projeto de melhoria de exibição do Grafana e APP baseado em microserviços para encaminhamento de alertas com sua principal STACK de desenvolvimento sendo Java e Angular.
 
@@ -37,14 +37,30 @@ De que coisas você precisa para instalar o software e como instalá-lo?
 
 Uma série de exemplos passo-a-passo que informam o que você deve executar para ter um ambiente de desenvolvimento em execução.
 
-1. Clone o projeto em sua maquina, direto do Git ou pelo comando abaixo:
+**1.** Clone o projeto em sua maquina, direto do Git ou pelo comando abaixo:
 
    **Lembrando, é necessário abrir o terminal na pasta que você deseja clonar o repositório**
 ```
 git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 ```
 
-2. é necessário criar os bancos: 
+**2.** Lembre-se de, depois que clonar todos os repositórios necessários, você deve trocar para a branch que usamos normalmente em desenvolvimento, em cada repositório. Use os seguintes comandos:
+* Os pulls são só para ter certeza de estar sempre atualizado.
+ 
+        git pull
+        git checkout dev
+        git pull
+ 
+**3.** Por padrão, sempre que vamos fazer nossas tasks em algum repositório, criamos uma branch separada para essa task. Depois de testarmos e commitarmos o que foi feito para essa branch remota, nós fazemos um pull request para a dev.
+Usamos o seguinte padrão para os nomes das branchs:
+* feature/ - quando estamos fazendo uma task para adicionar um recurso novo. Ex:
+        ```git checkout -b feature/swagger```
+* hotfix/ - quando estamos fazendo uma task para corrigir ou modificar um recurso já existente. Ex:
+        ```git checkout -b hotfix/swagger ```
+ 
+**OBS:** sempre que for criar uma nova branch, crie a partir da dev atualizada, a não ser que você já tenha uma outra branch que foi feita a partir da dev e, por algum motivo, terá que criar a partir dela por conta de algumas modificações suas que ainda não estão na dev. Mas, sempre que possível, crie a nova branch a partir da dev (e lembre-se de mante-la atualizada com a remota).
+
+**4.** é necessário criar os bancos: 
 
 Bancos para criar:
 * smartrtt-core-db
@@ -56,7 +72,7 @@ pode ser pela interface PG admin ou direto no CLI com o comando abaixo:
 createdb nome_do_banco
 ```
 
-3. Agora abra todos os projetos smartrtt em sua IDE e execute-os na mesma ordem abaixo:
+**5.** Agora abra todos os projetos smartrtt em sua IDE e execute-os na mesma ordem abaixo:
 
        1. smartrtt-service-registry
        2. smartrtt-authuser
@@ -76,7 +92,7 @@ Utilize o Insomnia para acessar as rotas, lembrando que é necessária a autenti
 
 **SWAGGER** -> Para acessar o swagger execute a aplicação e depois acesse o link: http://localhost:8080/webjars/swagger-ui/index.html
 
-### ⌨️ Variáveis de Ambiente
+### 📦 Variáveis de Ambiente
 
 As variáveis de ambiente podem ser utilizadas em todo escopo do ambiente de desenvolvimento.
 
@@ -98,10 +114,6 @@ As seguintes variáveis são necessárias para a inicialização e funcionamento
 
        management.endpoints.web.exposure.include --> esta variável é responsável pela exposição da interface web
 
-       management.endpoint.env.show-values --> 
-
-       management.endpoint.env.show-details --> 
-
        smartrtt.ui-url --> esta variável guarda o endereço do frontend da aplicação
 
        smartrtt.redirect-auth-url --> esta variável guarda o endereço de redirecionamento do frontend     
@@ -114,52 +126,7 @@ As seguintes variáveis são necessárias para a inicialização e funcionamento
 
        eureka.instance.prefer-ip-address --> esta variável indica para o Eureka que é preferivel utilizar o ip
 
-       eureka.client.service-url.defaultZone --> esta variável responsável pelo armazenamento da url do eureka 
-
-```
-Dar exemplos
-```
-
-## 📦 Implantação
-
-Adicione notas adicionais sobre como implantar isso em um sistema ativo
-
-## 🛠️ Construído com
-
-Mencione as ferramentas que você usou para criar seu projeto
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - O framework web usado
-* [Maven](https://maven.apache.org/) - Gerente de Dependência
-* [ROME](https://rometools.github.io/rome/) - Usada para gerar RSS
-
-## 🖇️ Colaborando
-
-Por favor, leia o [COLABORACAO.md](https://gist.github.com/usuario/linkParaInfoSobreContribuicoes) para obter detalhes sobre o nosso código de conduta e o processo para nos enviar pedidos de solicitação.
-
-## 📌 Versão
-
-Nós usamos [SemVer](http://semver.org/) para controle de versão. Para as versões disponíveis, observe as [tags neste repositório](https://github.com/suas/tags/do/projeto). 
-
-## ✒️ Autores
-
-Mencione todos aqueles que ajudaram a levantar o projeto desde o seu início
-
-* **Um desenvolvedor** - *Trabalho Inicial* - [umdesenvolvedor](https://github.com/linkParaPerfil)
-* **Fulano De Tal** - *Documentação* - [fulanodetal](https://github.com/linkParaPerfil)
-
-Você também pode ver a lista de todos os [colaboradores](https://github.com/usuario/projeto/colaboradores) que participaram deste projeto.
-
-## 📄 Licença
-
-Este projeto está sob a licença (sua licença) - veja o arquivo [LICENSE.md](https://github.com/usuario/projeto/licenca) para detalhes.
-
-## 🎁 Expressões de gratidão
-
-* Conte a outras pessoas sobre este projeto 📢;
-* Convide alguém da equipe para uma cerveja 🍺;
-* Um agradecimento publicamente 🫂;
-* etc.
+       eureka.client.service-url.defaultZone --> esta variável responsável pelo armazenamento da url do eureka
 
 
----
-⌨️ com ❤️ por [Armstrong Lohãns](https://gist.github.com/lohhans) 😊
+## ✒️ Autor: **Vertis Solutions**
